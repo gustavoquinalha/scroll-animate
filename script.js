@@ -1,7 +1,17 @@
 function checkEl() {
+	let fix = 0;
+	if(window.outerWidth < 480) {
+		fix = 100;
+	} else if(window.outerWidth < 1024) {
+		fix = 150;
+	} else {
+		fix = 200;
+	}
+	
+	console.log(fix);
 	let scrollW = window.outerHeight,
 		toTop = window.pageYOffset,
-		toBottom = toTop + (scrollW - 200),
+		toBottom = toTop + (scrollW - fix),
 		el = document.querySelectorAll('.animate');
 
 	el.forEach(function(e) {
