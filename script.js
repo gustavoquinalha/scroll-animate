@@ -7,8 +7,6 @@ function checkEl() {
 	} else {
 		fix = 200;
 	}
-	
-	console.log(fix);
 	let scrollW = window.outerHeight,
 		toTop = window.pageYOffset,
 		toBottom = toTop + (scrollW - fix),
@@ -25,7 +23,7 @@ function checkEl() {
 
 setTimeout(function() {
 	checkEl();
-}, 1);
+}, 200);
 
 
 window.addEventListener('scroll', function(){
