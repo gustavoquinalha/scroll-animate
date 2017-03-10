@@ -13,7 +13,10 @@ function checkEl() {
 	})
 };
 
-checkEl();
+setTimeout(function() {
+	checkEl();
+}, 1);
+
 
 window.addEventListener('scroll', function(){
 	checkEl();
