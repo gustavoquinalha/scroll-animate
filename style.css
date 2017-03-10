@@ -36,6 +36,7 @@
 
 	h2 {
 		font-size: 60px;
+		margin-top: 20px;
 		text-align: center;
 	}
 
@@ -146,6 +147,18 @@
 
 	.diag-left-bottom.active {
 		transform: translate(0, 0);
+	}
+
+	.animate-perspective {
+		perspective: 900px;
+	}
+
+	.flip {
+		transform: rotateY(90deg);
+	}
+
+	.flip.active {
+		transform: rotateY(0deg);
 	}
 
 	.icon {
