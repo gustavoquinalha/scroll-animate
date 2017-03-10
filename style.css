@@ -113,7 +113,31 @@
 	}
 
 	.to-right.active {
-		transform: translate(-80px, 0);
+		transform: translate(0px, 0);
+	}
+
+	.to-bottom {
+		transform: translate(0, -80px);
+	}
+
+	.to-bottom.active {
+		transform: translate(0, 0);
+	}
+
+	.diag-left-top {
+		transform: translate(80px, 80px);
+	}
+
+	.diag-left-top.active {
+		transform: translate(0, 0);
+	}
+
+	.diag-left-bottom {
+		transform: translate(-80px, -80px);
+	}
+
+	.diag-left-bottom.active {
+		transform: translate(0, 0);
 	}
 
 	.icon {
