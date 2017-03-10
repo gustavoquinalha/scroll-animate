@@ -9,6 +9,7 @@
 		padding: 0 15px;
 		position: relative;
 		margin: 0 auto;
+		overflow: hidden;
 	}
 
 	.flex-row {
