@@ -8,17 +8,17 @@
 </ul>
 
 <h2>Download</h2>
-Faça o download do CSS e JS por aqui aqui
+Fça o download do projeto por <a href="https://github.com/SergioJrDev/scroll-animate/archive/master.zip" target="_blank">aqui</a>
 
 <h2>Instalação</h2>
-Inclua o arquivo o CSS no head
+Inclua o arquivo o scroll-animate.css no head
 <pre>
 <link rel="stylesheet" href="dist/css/scroll-animate.min.css" />
 </pre>
 
-E inclua o arquivo JS antes de fechar a tag body
+E inclua o arquivo scroll-animate.js antes de fechar a tag body
 <pre>
-<script src="dist/js/scroll-animate.min.js" />
+<script src="dist/js/scroll-animate.js" />
 </pre>
 
 <h2>Classes</h2>
