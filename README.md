@@ -1,5 +1,8 @@
 # scroll-animate
 
+<h2>Exemplo</h2>
+https://sergiojrdev.github.io/scroll-animate/
+
 <ul>
 	<li>Javascript puro, sem jQuery ou qualquer biblioteca</li>
 	<li>Fácil de usar, basta incluir o CSS e JS ao site</li>
