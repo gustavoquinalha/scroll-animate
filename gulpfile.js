@@ -3,10 +3,11 @@ var stylus = require('gulp-stylus');
 var autoprefixer = require('gulp-autoprefixer');
 
 var paths = {
-  scripts: ['./js/script.js'],
   styles: [
   	'./css/style.styl',
-  	'./css/doc.styl'
+  ],
+  doc: [
+    './css/doc.styl'
   ]
 };
 
@@ -23,4 +24,17 @@ gulp.task('stylus', function () {
 });
 
 
-gulp.task('default', ['stylus']);
+gulp.task('doc', function () {
+  return gulp.src(paths.doc)
+    .pipe(stylus({
+      compress: true
+    }))
+    .pipe(autoprefixer({
+        browsers: ['last 2 versions', 'Firefox > 20', '> 5%'],
+        cascade: false
+    }))
+    .pipe(gulp.dest('./css'));
+});
+
+
+gulp.task('default', ['stylus', 'doc']);
