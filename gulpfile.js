@@ -4,7 +4,7 @@ var autoprefixer = require('gulp-autoprefixer');
 
 var paths = {
   styles: [
-  	'./css/style.styl',
+  	'./css/scroll-animate.styl',
   ],
   doc: [
     './css/doc.styl'
