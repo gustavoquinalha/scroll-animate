@@ -13,7 +13,8 @@ Fça o download do projeto por <a href="https://github.com/SergioJrDev/scroll-an
 <h2>Instalação</h2>
 Inclua o arquivo o scroll-animate.css no head
 <pre>
-<link rel="stylesheet" href="dist/css/scroll-animate.min.css" />
+<script src="dist/js/scroll-animate.js" />
+<link rel="stylesheet" href="dist/css/scroll-animate.min.css">
 </pre>
 
 E inclua o arquivo scroll-animate.js antes de fechar a tag body
@@ -22,7 +23,7 @@ E inclua o arquivo scroll-animate.js antes de fechar a tag body
 </pre>
 
 <h2>Classes</h2>
-Use a classe .animate no elemento para aplicar o efeito. As seguintes classes adicionam efeitos diferentes. Veja os exemplos.
+Use a classe .animate no elemento para aplicar o efeito. As seguintes classes adicionam efeitos diferentes. <a href="https://sergiojrdev.github.io/scroll-animate/">Veja os exemplos</a>.
 
 flip | to-left | to-top | to-right | to-bottom | diag-left-bottom | diag-left-top | grow
 Para criar o delay, adicione a classe .delay em cada elemento
