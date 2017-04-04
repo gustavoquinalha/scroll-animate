@@ -16,7 +16,6 @@ Fça o download do projeto por <a href="https://github.com/SergioJrDev/scroll-an
 <h2>Instalação</h2>
 Inclua o arquivo o scroll-animate.css no head
 <pre>
-<script src="dist/js/scroll-animate.js" />
 <link rel="stylesheet" href="dist/css/scroll-animate.min.css">
 </pre>
 
